@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class  students{
+class  Students{
 public:
     string name;
     int rollno;
@@ -13,13 +13,10 @@ public:
 
 };
 int main(){
-    students s1,s2;
-    s1.name="John";
-    s1.rollno=101;
-    s1.marks=85;
-    s2.name="Alice";
-    s2.rollno=102;
-    s2.marks=90;
+    Students s1,s2;
+    cin>>s1.name>>s1.rollno>>s1.marks;
+    
+    cin>>s2.name>>s2.rollno>>s2.marks;
 
 
     s1.display();
