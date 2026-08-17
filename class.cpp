@@ -6,7 +6,7 @@ public:
     int rollno;
     int marks;
     void display(){
-        cout<<"name is:"<<name<<" "<<"roll no. is:"<<rollno<<" "<<"marks:"<<marks<<endl;
+        cout<<"name is:"<<name<<" "<<"roll no. is:"<<rollno<<" "<<"marks is :"<<marks<<endl;
     }  
 };
 int main(){
